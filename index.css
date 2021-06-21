@@ -8,7 +8,7 @@
 }
 body,
 head {
-  background-image: url(../chatbg01.jpg);
+  background-image: url(../images/chatbg01.jpg);
   background-size: cover;
   opacity: 0.9;
 }
