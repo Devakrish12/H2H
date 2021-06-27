@@ -11,4 +11,8 @@ function myfunction() {
     document.querySelector('.condition li').remove();
     document.querySelector('.click').innerText = "Log In";
 }
- 
+const page = document.querySelector('#click').value;
+page.addEventListener("click", myPage());
+function myPage() {
+    window.location.href = 'login.html';
+}
